@@ -3135,4 +3135,8 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+		/* Logo */
+			#header #logo {
+				color: white !important;
+			}
 	}
