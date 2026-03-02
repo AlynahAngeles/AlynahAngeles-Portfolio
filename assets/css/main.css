@@ -110,8 +110,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		color: #483949;
+		font-weight: 500;
+		color: #FFF;
 		line-height: 1.25em;
 	}
 
@@ -2055,8 +2055,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
-		color: #fff;
+		background: #fff;
+		color: #10226E;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -3135,9 +3135,4 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
-		/* Logo */
-			#header #logo {
-				color: white !important;
-			}
 	}
