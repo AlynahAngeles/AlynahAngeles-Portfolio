@@ -2461,12 +2461,12 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #2C0B4D;
 		color: #fff;
 	}
 
 		#footer .icon.circled {
-			background: #10226E;
+			background: #2C0B4D;
 			color: #fff;
 		}
 
