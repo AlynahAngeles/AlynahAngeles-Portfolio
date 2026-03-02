@@ -2064,7 +2064,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 400;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2466,8 +2466,8 @@ input, select, textarea {
 	}
 
 		#footer .icon.circled {
-			background: #fff;
-			color: #2b252c;
+			background: #10226E;
+			color: #fff;
 		}
 
 		#footer header {
