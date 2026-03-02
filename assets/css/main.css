@@ -2195,6 +2195,7 @@ input, select, textarea {
 
 		#header .inner {
 			position: relative;
+			color: ghostwhite
 			z-index: 1;
 			margin: 0;
 			display: inline-block;
