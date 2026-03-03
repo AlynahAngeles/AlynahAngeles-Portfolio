@@ -2615,6 +2615,10 @@ input, select, textarea {
 			transition: opacity 0.75s ease-in-out;
 		}
 
+			.carousel article:hover {
+				opacity: 0.6;
+			}
+
 			.carousel article.loading {
 				opacity: 0;
 			}
