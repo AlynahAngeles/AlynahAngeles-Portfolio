@@ -2593,6 +2593,7 @@ input, select, textarea {
 			}
 
 		.carousel .reel {
+			color: #101529;
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
