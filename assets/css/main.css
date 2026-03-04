@@ -3187,4 +3187,8 @@ input, select, textarea {
 			margin: 0;
 			padding: 0;
 		}
+
+		body.contact-page {
+			background: red !important;
+		}
 	}
