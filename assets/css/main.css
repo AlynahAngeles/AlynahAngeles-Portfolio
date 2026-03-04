@@ -3167,21 +3167,20 @@ input, select, textarea {
 	body.contact-page {
 		background: url("../images/headerdark.png") no-repeat center center fixed;
 		background-size: cover;
-		color: #fff; /* ensures text is visible */
+		color: #fff; 
 	}
 
 		body.contact-page #header,
 		body.contact-page #header .inner {
-			background: inherit !important; /* use the body's dark background */
-			min-height: 100vh; /* fill full viewport height */
+			background: transparent !important;
+			min-height: 100vh;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 
-			/* Optional: make text stand out */
-			body.contact-page #header h1 a {
-				color: #fff;
-				text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-			}
+		body .contact-page #header h1 a {
+			color: #fff;
+			text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+		}
 }
