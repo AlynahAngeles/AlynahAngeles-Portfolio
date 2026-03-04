@@ -3163,8 +3163,14 @@ input, select, textarea {
 					}
 
 		/* Contact Page */
-		.contact-page #header{
+		.contact-page {
 			background: url("..images/header.jpg") no-repeat center center;
 			background-size: cover;
+			background-attachment: fixed;
+			color: #fff;
+		}
+
+		#page-wrapper{
+			background: transparent;
 		}
 	}
