@@ -2213,6 +2213,15 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		#header .contact {
+			position: relative;
+			color: transparent;
+			z-index: 1;
+			margin: 0;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
 		#header header {
 			display: inline-block;
 		}
