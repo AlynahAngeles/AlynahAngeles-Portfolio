@@ -2610,14 +2610,15 @@ input, select, textarea {
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
+			will-change: opacity, transform;
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
+			transition: opacity 0.75s ease-in-out, transform 0.3s ease-in-out;
 		}
 
 			.carousel article:hover {
 				opacity: 0.6;
-				transition: scale(1.05);
+				transform: scale(1.05);
 			}
 
 			.carousel article.loading {
