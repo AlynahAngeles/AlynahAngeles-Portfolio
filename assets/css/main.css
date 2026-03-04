@@ -2601,7 +2601,8 @@ input, select, textarea {
 		}
 
 		.carousel article {
-			display: inline-block;
+			display: inline-flex;
+			flex-direction: column;
 			width: 18em;
 			background: #fff;
 			text-align: center;
@@ -2609,10 +2610,17 @@ input, select, textarea {
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
+			transform: translateZ(0);
 			will-change: opacity, transform;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
+
+			-moz-transition: 
+				opacity 0.75s ease-in-out;
+			-moz-transform 0.3s ease-in-out;
+
+			-webkit-transition:
+				opacity 0.75s ease-in-out;
+				-webkit-transform 0.3s ease-in-out;
+
 			transition: opacity 0.75s ease-in-out, transform 0.3s ease-in-out;
 		}
 
