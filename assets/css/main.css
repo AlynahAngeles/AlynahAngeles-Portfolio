@@ -3180,7 +3180,7 @@ input, select, textarea {
 		}
 
 		html,
-		body.contact-page,
+		body.contact-page #header,
 		body.contact-page #page-wrapper {
 			height: 100%;
 			min-height: 100vh;
