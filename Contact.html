@@ -1,38 +1,75 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!-- Contact Page - Custom Helios -->
 <html>
-	<head>
-		<title>Alynah Angeles | Contact Me </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="contact-page is-preload" style="background: url('images/headerdark.png') no-repeat center center fixed; background-size: cover;">
-		<div id="page-wrapper">
+<head>
+	<title>Alynah Angeles | Contact Me</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+	<style>
+		/* Full-page dark background */
+		body.contact-page {
+			background: url('images/headerdark.png') no-repeat center center fixed;
+			background-size: cover;
+		}
+
+			/* Make nav links white, including dropdowns */
+			body.contact-page #header #nav a {
+				color: #fff !important;
+			}
+
+				body.contact-page #header #nav a:hover {
+					color: #f0f0f0 !important;
+				}
+
+			/* Dropdown background for readability */
+			body.contact-page #header #nav ul li ul {
+				background-color: rgba(0,0,0,0.8);
+			}
+	</style>
+</head>
+<body class="contact-page is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header wrapper (required for dropdown JS) -->
+		<div id="header">
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-
-					<li><a href="index.html" style="color: #fff;">Home</a></li>
-					<li><a href="AboutSection.html" style="color: #fff;">About</a></li>
-
+					<li><a href="index.html">Home</a></li>
+					<li><a href="AboutSection.html">About</a></li>
 					<li>
-						<a href="#" style="color: #fff">Portfolio</a>
+						<a href="#">Portfolio</a>
 						<ul>
 							<li><a href="art.html">Art and Assets</a></li>
 							<li><a href="narrative.html">Narrative</a></li>
 							<li><a href="projects.html">Projects</a></li>
 						</ul>
-
-					<li><a href="Contact.html" style="color: #fff;">Contact</a></li>
+					</li>
+					<li><a href="Contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
+
+		<!-- Main content -->
+		<div class="wrapper style2">
+			<article id="main" class="container special">
+				<header>
+					<h2>Contact Me</h2>
+					<p>Get in touch!</p>
+				</header>
+				<p>Your content here…</p>
+			</article>
+		</div>
+
+	</div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
