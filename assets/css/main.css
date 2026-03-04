@@ -3163,6 +3163,7 @@ input, select, textarea {
 					}
 
 		/* Contact Page */
+
 		.contact-page {
 			background: url("..images/header.jpg") no-repeat center center;
 			background-size: cover;
@@ -3170,7 +3171,7 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		#page-wrapper{
+		.contact-page #page-wrapper{
 			background: transparent;
 		}
 	}
