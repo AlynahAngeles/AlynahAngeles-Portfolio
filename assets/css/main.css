@@ -3165,15 +3165,26 @@ input, select, textarea {
 		/* Contact Page */
 
 		body.contact-page {
-			background: url("../images/header.jpg") no-repeat center center;
-			background-size: cover;
-			background-attachment: fixed;
-			height: 100%;
-			min-height: 100vh;
+			background-image: url("../images/header.jpg") !important;
+			background-position: center center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+			background-attachment: fixed !important;
 			color: #fff;
 		}
 
-		body.contact-page #page-wrapper{
+		body.contact-page #page-wrapper, 
+		body.contact-page #header,
+		body.contact-page .wrapper {
 			background: transparent !important;
+		}
+
+		html,
+		body.contact-page,
+		body.contact-page #page-wrapper {
+			height: 100%;
+			min-height: 100vh;
+			margin: 0;
+			padding: 0;
 		}
 	}
