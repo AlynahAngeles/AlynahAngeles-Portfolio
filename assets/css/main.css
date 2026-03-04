@@ -3167,7 +3167,7 @@ input, select, textarea {
 	body.contact-page {
 		background: url("../images/headerdark.png") no-repeat center center fixed;
 		background-size: cover;
-		color: #fff; 
+		color: red; 
 	}
 
 		body.contact-page #nav,
@@ -3175,7 +3175,7 @@ input, select, textarea {
 		body.contact-page #nav li,
 		body.contact-page #nav li a 
 		body.contact-page #nav li a span{
-			color: #fff !important;
+			color: red !important;
 			background: none !important;
 		}
 
