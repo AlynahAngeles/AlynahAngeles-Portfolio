@@ -3168,6 +3168,7 @@ input, select, textarea {
 			background: url("../images/header.jpg") no-repeat center center;
 			background-size: cover;
 			background-attachment: fixed;
+			height: 100%;
 			min-height: 100vh;
 			color: #fff;
 		}
