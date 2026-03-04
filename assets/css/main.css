@@ -3170,10 +3170,12 @@ input, select, textarea {
 		color: #fff; 
 	}
 
-		body.contact-page #nav > ul > li > a,
-		body.contact-page #nav ul li ul li a {
-			color: #fff !important; 
-			opacity: 1;
+		body.contact-page #nav,
+		body.contact-page #nav ul,
+		body.contact-page #nav li,
+		body.contact-page #nav li a {
+			color: #fff !important;
+			background: none !important;
 		}
 
 }
