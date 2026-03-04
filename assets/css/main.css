@@ -3173,6 +3173,7 @@ input, select, textarea {
 		body.contact-page #nav > ul > li > a,
 		body.contact-page #nav ul li ul li a {
 			color: #fff !important; 
+			opacity: 1;
 		}
 
 }
