@@ -3179,7 +3179,8 @@ input, select, textarea {
 			justify-content: center;
 		}
 
-		body .contact-page #header h1 a {
+		body .contact-page #header h1 a, 
+		body.contact-page #nav a{
 			color: #fff;
 			text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 		}
