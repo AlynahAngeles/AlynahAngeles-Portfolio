@@ -2215,7 +2215,7 @@ input, select, textarea {
 
 		#header .contact {
 			position: relative;
-			color: transparent;
+			color: #0E073B;
 			z-index: 1;
 			margin: 0;
 			display: inline-block;
