@@ -3165,13 +3165,14 @@ input, select, textarea {
 		/* Contact Page */
 
 		.contact-page {
-			background: url("..images/header.jpg") no-repeat center center;
+			background: url("../images/header.jpg") no-repeat center center;
 			background-size: cover;
 			background-attachment: fixed;
+			min-height: 100vh;
 			color: #fff;
 		}
 
 		.contact-page #page-wrapper{
-			background: transparent;
+			background: transparent !important;
 		}
 	}
