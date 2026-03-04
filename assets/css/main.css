@@ -3179,9 +3179,7 @@ input, select, textarea {
 		}
 
 		body.contact-page #header {
-			background: url("../images/headerdark.png") no-repeat center center;
-			background-size: cover;
-			background-attachment: fixed;
+			background: inherit;
 			min-height: 100vh;
 			display: flex;
 			align-items: center;
