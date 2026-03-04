@@ -3174,17 +3174,22 @@ input, select, textarea {
 		}
 
 		body.contact-page #page-wrapper, 
-		body.contact-page #header,
 		body.contact-page .wrapper {
 			background: transparent !important;
 		}
 
-		html,
-		body.contact-page #header,
-		body.contact-page #page-wrapper {
-			height: 100%;
+		body.contact-page #header {
+			background: url("../images/headerdark.png") no-repeat center center;
+			background-size: cover;
+			background-attachment: fixed;
 			min-height: 100vh;
-			margin: 0;
-			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+		}
+
+		body.contact-page #header h1 a {
+			color: #fff;
 		}
 	}
