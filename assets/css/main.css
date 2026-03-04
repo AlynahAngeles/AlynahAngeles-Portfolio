@@ -3164,7 +3164,7 @@ input, select, textarea {
 
 		/* Contact Page */
 
-		.contact-page {
+		body.contact-page {
 			background: url("../images/header.jpg") no-repeat center center;
 			background-size: cover;
 			background-attachment: fixed;
@@ -3172,7 +3172,7 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		.contact-page #page-wrapper{
+		body.contact-page #page-wrapper{
 			background: transparent !important;
 		}
 	}
