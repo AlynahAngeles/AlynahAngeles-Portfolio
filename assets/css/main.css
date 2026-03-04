@@ -3170,18 +3170,9 @@ input, select, textarea {
 		color: #fff; 
 	}
 
-		body.contact-page #header,
-		body.contact-page #header .inner {
-			background: transparent !important;
-			min-height: 100vh;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+		body.contact-page #nav > ul > li > a,
+		body.contact-page #nav ul li ul li a {
+			color: #fff !important; 
 		}
 
-		body .contact-page #header h1 a, 
-		body.contact-page #nav a{
-			color: #fff;
-			text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-		}
 }
