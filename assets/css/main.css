@@ -3173,7 +3173,8 @@ input, select, textarea {
 		body.contact-page #nav,
 		body.contact-page #nav ul,
 		body.contact-page #nav li,
-		body.contact-page #nav li a {
+		body.contact-page #nav li a 
+		body.contact-page #nav li a span{
 			color: #fff !important;
 			background: none !important;
 		}
