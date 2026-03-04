@@ -2562,7 +2562,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: rgba(22, 9, 94, 0.75);
 			}
 
 		.carousel .forward {
@@ -2613,10 +2613,12 @@ input, select, textarea {
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
+			transition: transform 0.3s ease-in-out;
 		}
 
 			.carousel article:hover {
 				opacity: 0.6;
+				transition: scale(1.05);
 			}
 
 			.carousel article.loading {
